@@ -7,7 +7,7 @@
   <hr>
   {% for post in posts %}
     <article>
-      {% include "includes/detail_index_intersection.html" %}
+      {% include "blog/detail_index_intersection.html" %}
       <p>
         {{ post.text|truncatewords:10 }}
       </p>
